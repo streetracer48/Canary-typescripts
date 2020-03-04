@@ -3,7 +3,7 @@ import { ActionTypes } from '../Actions/types'
 
 
 export const TodoReducer = (
-     state:Todo[],
+     state:Todo[] = [],
      action:fetchTodosAction
 ) => {
     switch(action.type){
