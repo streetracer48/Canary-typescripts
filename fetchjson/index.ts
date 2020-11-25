@@ -4,6 +4,7 @@ import axios from "axios"
 const url ='https://jsonplaceholder.typicode.com/todos/1'
 
 interface Todo {
+    userId:number;
     id: number;
     title: string;
     completed: boolean;
